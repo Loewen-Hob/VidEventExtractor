@@ -1,6 +1,7 @@
 
 
 # VidEventExtractor
+# 代码待补充
 
 VidEventExtractor是一个先进的视频事件抽取工具，旨在自动识别和提取视频中的关键事件。通过利用最新的深度学习和图像处理技术，VidEventExtractor能够准确地从各种视频源中检测特定事件，为视频分析和内容创造提供强大支持。
 
