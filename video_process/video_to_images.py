@@ -42,6 +42,6 @@ def process_video_to_images(video_root, frame_root):
         print(f"Finished {video_file}")
 
 if __name__ == "__main__":
-    video_root = "/root/bishe/end_output/data/video"  # 更改为你的视频文件夹路径
-    frame_root = "/root/bishe/end_output/data/frame"  # 更改为你的输出图片文件夹路径
+    video_root = "/root/bishe/DDM/data/test/video_data/假冒造假"  # 更改为你的视频文件夹路径
+    frame_root = "/root/bishe/DDM/data/test/frame_data/假冒造假"  # 更改为你的输出图片文件夹路径
     process_video_to_images(video_root, frame_root)

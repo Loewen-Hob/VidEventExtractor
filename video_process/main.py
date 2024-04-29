@@ -27,3 +27,28 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+''' 
+video_to_image
+
+video_to_fps
+
+python tools/generate_pickle.py /root/bishe/DDM/data/test/frame_data/假冒造假 --split test
+
+python DDM-Net/test.py \
+--dataset kinetics_multiframes \
+--val-split test \
+-b 192 \
+--resume checkpoint.pth.tar
+
+python3 get_submission.py /root/bishe/DDM/multif-pred_outputs/checkpoint.pth.tar_不符合规定_kinetics_multiframes_scores.pkl /root/bishe/DDM/data/test/不符合规定fps.pkl
+
+
+video_segment
+'''

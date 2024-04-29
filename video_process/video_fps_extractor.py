@@ -36,3 +36,8 @@ def process_and_save_fps_data(directory_path, output_path):
     video_fps_dict = extract_fps_from_videos(directory_path)
     save_fps_data(video_fps_dict, output_path)
     print(f"Video FPS data saved to {output_path}")
+    
+if __name__ == '__main__':
+    directory_path = '/root/bishe/DDM/data/test/video_data/假冒造假'
+    output_path = '/root/bishe/DDM/data/test/假冒造假fps.pkl'
+    process_and_save_fps_data(directory_path, output_path)
