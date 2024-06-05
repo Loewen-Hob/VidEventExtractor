@@ -1,7 +1,6 @@
 import os
 from tqdm import tqdm
 def extract_text_from_srt(srt_file_path):
-    # 异常捕获，防止文件不存在
     try:        
         with open(srt_file_path, 'r', encoding='utf-8') as file:
             lines = file.readlines()
@@ -42,10 +41,8 @@ def write_output(output_file_path, lines):
         file.writelines(lines)
 
 def process_folders(input_txt_base_folder, input_srt_base_folder, output_base_folder):
-    # 首先，计算总的文件数量
     total_files = sum([len(files) for _, _, files in os.walk(input_srt_base_folder) if any(file.endswith('.srt') for file in files)])
     
-    # 使用 tqdm 创建一个进度条
     pbar = tqdm(total=total_files, desc="Processing files")
     
     for subdir, _, files in os.walk(input_srt_base_folder):
@@ -60,12 +57,11 @@ def process_folders(input_txt_base_folder, input_srt_base_folder, output_base_fo
             unique_lines = merge_and_remove_duplicates(txt_file_path, srt_text_lines)
             write_output(output_file_path, unique_lines)
             
-            # 更新进度条
+            
             pbar.update(1)
     
-    # 关闭进度条
+    
     pbar.close()
-# 请根据你的文件夹路径进行修改
 input_txt_base_folder = '/root/bishe/end_output/虚假宣传/OCR'
 input_srt_base_folder = '/root/bishe/end_output/虚假宣传/ASR'
 output_base_folder = '/root/bishe/end_output/虚假宣传/merged'

@@ -2,12 +2,12 @@ import pickle
 import os
 from moviepy.editor import VideoFileClip
 
-file_path = '/root/bishe/VidEventExtractor/不符合规定_0.8_submission.pkl'
+file_path = '/root/bishe/VidEventExtractor/虚假宣传_0.8_submission.pkl'
 with open(file_path, 'rb') as file:
     data = pickle.load(file)
 
-video_directory = "/root/bishe/DDM/data/test/video_data/不符合规定"
-output_directory = "/root/bishe/end_output/不符合规定/segment_video_0.8"
+video_directory = "/root/bishe/DDM/data/test/video_data/虚假宣传"
+output_directory = "/root/bishe/end_output/虚假宣传/segment_video_0.8"
 
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)

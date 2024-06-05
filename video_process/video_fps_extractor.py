@@ -38,6 +38,6 @@ def process_and_save_fps_data(directory_path, output_path):
     print(f"Video FPS data saved to {output_path}")
     
 if __name__ == '__main__':
-    directory_path = '/root/bishe/DDM/data/test/video_data/假冒造假'
-    output_path = '/root/bishe/DDM/data/test/假冒造假fps.pkl'
+    directory_path = '/root/bishe/DDM/data/test/video_data/虚假宣传'
+    output_path = '/root/bishe/DDM/data/test/虚假宣传fps.pkl'
     process_and_save_fps_data(directory_path, output_path)

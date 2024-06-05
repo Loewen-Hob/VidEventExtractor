@@ -39,7 +39,7 @@ video_to_image
 
 video_to_fps
 
-python tools/generate_pickle.py /root/bishe/DDM/data/test/frame_data/假冒造假 --split test
+python tools/generate_pickle.py /root/bishe/DDM/data/test/frame_data/虚假宣传 --split test
 
 python DDM-Net/test.py \
 --dataset kinetics_multiframes \
@@ -47,8 +47,7 @@ python DDM-Net/test.py \
 -b 192 \
 --resume checkpoint.pth.tar
 
-python3 get_submission.py /root/bishe/DDM/multif-pred_outputs/checkpoint.pth.tar_不符合规定_kinetics_multiframes_scores.pkl /root/bishe/DDM/data/test/不符合规定fps.pkl
-
+python3 /root/bishe/VidEventExtractor/video_process/get_submission.py /root/bishe/DDM/multif-pred_outputs/checkpoint.pth.tar_虚假宣传_kinetics_multiframes_scores.pkl /root/bishe/DDM/data/test/虚假宣传fps.pkl
 
 video_segment
 '''

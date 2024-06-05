@@ -8,9 +8,9 @@ def read_pkl(pkl_file):
     return data
 
 if __name__ == '__main__':
-    pkl_file1 = '/root/bishe/DDM/DDM-Net/DataAssets/multi-frames-GEBD-test-5.pkl'
-    pkl_file2 = '/root/bishe/VidEventExtractor/虚假宣传_0.9_submission.pkl'
+    pkl_file1 = '/root/bishe/DDM/DataAssets/multi-frames-GEBD-test-5.pkl'
+    
     data1 = read_pkl(pkl_file1)
-    data2 = read_pkl(pkl_file2)
+    
     print(data1)
-    print(data2)
+    

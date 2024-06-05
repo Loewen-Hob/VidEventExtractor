@@ -1,0 +1,198 @@
+absl-py==2.1.0
+accelerate==0.29.3
+addict==2.4.0
+aiofiles==23.2.1
+aiohttp==3.9.5
+aiosignal==1.3.1
+aliyun-python-sdk-core==2.15.1
+aliyun-python-sdk-kms==2.16.2
+altair==5.3.0
+annotated-types==0.6.0
+anyio==4.3.0
+apex @ file:///root/bishe/MNER/PROMU/apex
+asttokens==2.4.1
+astunparse==1.6.3
+async-timeout==4.0.3
+attrs==23.2.0
+Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
+cachetools==5.3.3
+certifi @ file:///croot/certifi_1700501669400/work/certifi
+cffi @ file:///croot/cffi_1700254295673/work
+chardet==3.0.4
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+comm==0.2.2
+contourpy==1.2.1
+crcmod==1.7
+cryptography @ file:///croot/cryptography_1694444244250/work
+cycler==0.12.1
+datasets==2.18.0
+debugpy==1.8.1
+decorator==5.1.1
+deepspeed==0.14.1
+dill==0.3.8
+distro==1.9.0
+einops==0.8.0
+exceptiongroup==1.2.1
+executing==2.0.1
+fastapi==0.110.2
+ffmpy==0.3.2
+filelock @ file:///croot/filelock_1700591183607/work
+flatbuffers==24.3.25
+fonttools==4.51.0
+frozenlist==1.4.1
+fsspec==2024.2.0
+gast==0.5.4
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+googletrans==3.0.0
+gradio==4.27.0
+gradio_client==0.15.1
+grpcio==1.62.2
+h11==0.14.0
+h2==3.2.0
+h5py==3.11.0
+hjson==3.1.0
+hpack==3.0.0
+hstspreload==2024.4.1
+httpcore==1.0.5
+httpx==0.27.0
+huggingface-hub==0.22.2
+hyperframe==5.2.0
+idna==2.10
+importlib_metadata==7.1.0
+importlib_resources==6.4.0
+ipykernel==6.29.4
+ipython==8.23.0
+jedi==0.19.1
+jieba==0.42.1
+Jinja2 @ file:///croot/jinja2_1666908132255/work
+jmespath==0.10.0
+joblib==1.4.0
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter_client==8.6.1
+jupyter_core==5.7.2
+keras==2.15.0
+kiwisolver==1.4.5
+libclang==18.1.1
+loguru==0.7.2
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+matplotlib==3.8.4
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+ml-dtypes==0.2.0
+mock==5.1.0
+modelscope==1.14.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+multidict==6.0.5
+multiprocess==0.70.16
+nest-asyncio==1.6.0
+networkx @ file:///croot/networkx_1690561992265/work
+ninja==1.11.1.1
+numpy @ file:///croot/numpy_and_numpy_base_1701295038894/work/dist/numpy-1.26.2-cp310-cp310-linux_x86_64.whl#sha256=2ab675fa590076aa37cc29d18231416c01ea433c0e93be0da3cfd734170cfc6f
+oauthlib==3.2.2
+openai==1.8.0
+openxlab==0.0.38
+opt-einsum==3.3.0
+orjson==3.10.1
+oss2==2.17.0
+packaging==24.0
+pandas==2.2.2
+parso==0.8.4
+pexpect==4.9.0
+Pillow @ file:///croot/pillow_1696580024257/work
+platformdirs==4.2.0
+prompt-toolkit==3.0.43
+protobuf==4.25.3
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyarrow==16.0.0
+pyarrow-hotfix==0.6
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome==3.20.0
+pydantic==2.7.0
+pydantic_core==2.18.1
+pydub==0.25.1
+Pygments==2.17.2
+PyJWT==2.8.0
+pynvml==11.5.0
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.2
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil==2.9.0.post0
+python-multipart==0.0.9
+pytz==2023.4
+PyYAML==6.0.1
+pyzmq==26.0.2
+referencing==0.34.0
+regex==2024.4.16
+requests==2.28.2
+requests-oauthlib==2.0.0
+rfc3986==1.5.0
+rich==13.4.2
+rpds-py==0.18.0
+rsa==4.9
+ruff==0.4.1
+sacremoses==0.1.1
+safetensors==0.4.3
+scikit-learn==1.4.2
+scipy==1.13.0
+semantic-version==2.10.0
+sentencepiece==0.2.0
+seqeval==1.2.2
+shellingham==1.5.4
+simplejson==3.19.2
+six==1.16.0
+sniffio==1.3.1
+sortedcontainers==2.4.0
+sse-starlette==2.1.0
+stack-data==0.6.3
+starlette==0.37.2
+subword-nmt==0.3.8
+sympy @ file:///croot/sympy_1668202399572/work
+tensorboard==2.15.2
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.36.0
+termcolor==2.4.0
+threadpoolctl==3.5.0
+tokenizers==0.19.1
+tomli==2.0.1
+tomlkit==0.12.0
+toolz==0.12.1
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+tornado==6.4
+tqdm==4.65.2
+traitlets==5.14.3
+transformers==4.40.0
+triton==2.0.0
+typer==0.12.3
+typing_extensions==4.11.0
+tzdata==2024.1
+urllib3==1.26.18
+uvicorn==0.29.0
+wcwidth==0.2.13
+websockets==11.0.3
+Werkzeug==3.0.2
+wrapt==1.14.1
+xxhash==3.4.1
+yapf==0.40.2
+yarl==1.9.4
+zhipu==1.0.1
+zhipuai==2.0.1.20240429
+zipp==3.18.1
